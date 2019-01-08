@@ -56,8 +56,8 @@ const extentionCreated = SpinalForgeExtention.createExtention({
   style: {
     left: "405px"
   },
-  onload: () => {},
-  onUnLoad: () => {}
+  onLoad: function(){},
+  onUnLoad: function(){}
 });
 
 SpinalForgeExtention.registerExtention("my_test_Extention", extentionCreated);
